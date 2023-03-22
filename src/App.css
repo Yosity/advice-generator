@@ -66,7 +66,7 @@ p{
   transform: translateX(-50%);
   bottom: -35px;
   cursor: pointer;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s,background-color 0.2s;
 }
 #dice-container:hover{
   box-shadow: 0 0 17px 2px var(--Neon-Green);
