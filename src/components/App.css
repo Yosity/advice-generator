@@ -68,7 +68,9 @@ p{
   cursor: pointer;
   transition: box-shadow 0.2s,background-color 0.2s;
 }
-#dice-container:hover{
+
+
+#dice-container.enabled:hover{
   box-shadow: 0 0 17px 2px var(--Neon-Green);
 }
 #dice-container:active{
@@ -83,4 +85,14 @@ p{
   background: url("/images/icon-dice.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.disabled{
+  opacity: 0.5;
+  user-select: none;
+  box-shadow: none;
+  transition: all;
+}
+.disabled:hover{
+  box-shadow: none;
 }
